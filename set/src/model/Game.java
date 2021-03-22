@@ -16,7 +16,7 @@ public class Game {
 			for (int shape = 0; shape < 3; shape++) {
 				for (int fillment = 0; fillment < 3; fillment++) {
 					for (int number = 0; number < 3; number++) {
-						allCards.add(new Card(Card.color.values()[color], number-1, Card.fillment.values()[fillment], Card.shape.values()[shape]));
+						allCards.add(new Card(Card.color.values()[color], number+1, Card.fillment.values()[fillment], Card.shape.values()[shape]));
 					}
 				}
 			}
